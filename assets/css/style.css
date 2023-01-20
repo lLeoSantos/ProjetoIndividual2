@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+
+    width: 100%;
+    min-height: 100vh;
+
+
+    margin-top: 30px;
+    background: linear-gradient(#545353, #000000);
+}
+#topo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid black; */
+
+
+    display: flex;
+    justify-content: end;
+}
+
+.icons{
+    font-size: 2.4rem;
+    margin-right: 15px;
+    border-radius: 300px;
+}
+
+h1{
+    margin-top: 30px;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 100%;
+    min-height: 100vh;
+
+}
+.container{
+    width: 300px;
+    height: 450px;
+    background: gray;
+    box-shadow: 2px 2px 3px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#entrada{
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 50px;
+    max-height: 170px;
+    max-width: 280px;
+    /* min-width: 350px; */
+    resize: none;
+}
+#escolheCifra{
+    margin: 5px 0;
+}
+#escolhas{
+    display: flex;
+    justify-content: center;
+}
+label{
+    margin: 0 5px;
+}
+#selectDesloc{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5px;
+}
+#deslocamento{
+    text-align: center;
+    margin-top: 2px;
+}
+#areaBtn {
+    max-width: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#botao{
+    display: none;
+    margin: 5px 0;
+    width: 75px;
+    text-align: center;
+}
+#result{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(31, 30, 30);
+
+
+    width: 250px;
+    min-height: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #000000;
+    padding: 5px;
+    word-wrap: break-word;
+}
+#result p{
+    width: 100%;
+    word-wrap: break-word;
+}
+.descricao{
+    margin-top: 20px;
+    margin-left: 30px;
+
+    min-height: 250px;
+
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    color: #dccccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+}
+.descricao span{
+    width: 100%;
+    word-wrap: break-word;
+}
+
+@media (max-width: 760px) {
+    .all {
+        flex-direction: column;
+    }
+}

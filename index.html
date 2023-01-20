@@ -1,22 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css>
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/f804f86631.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <title>Code&Decode</title>
 </head>
 <body>
-
-    <div class="all">
-        <form>
-
-            <input type="text">
-
-
-        </form>
+    <div id="topo">
+        <div class="icons"><a href="https://github.com/lLeoSantos"><i class="fa-brands fa-github"></i></a></div>
+        <div class="icons"><a href="https://www.linkedin.com/in/leonardosantosdev/"><i class="fa-brands fa-linkedin"></i></a></div>
     </div>
-    <script src="./cesar.js"></script>
+    <h1>Code & Decode</h1>
+    <div class="all">
+
+        <div class="container">
+            <form>
+                <textarea name="entrada" id="entrada" cols="30" rows="10"></textarea>
+                <select name="option" id="escolheCifra">
+                    <option value="default" selected disabled>Escolha uma opção</option>
+                    <option value="base64">Base64</option>
+                    <option value="cifraDeCesar">Cifra de césar</option>
+                </select>
+                <div id="escolhas">
+                    <input type="radio" name="comando"class="option" id="codificar"><label for="codificar">Codificar</label>
+                    <input type="radio" name="comando" class="option" id="decodificar"><label for="decodificar">Decodificar</label>
+                </div>
+                <div id="selectDesloc">
+                    <span>Informe o valor de deslocamento</span>
+                    <input id="deslocamento" type="number" min="1">
+                </div>
+                <div id="result">
+                </div>
+                <div id="areaBtn">
+                    <button type="button" id="botao">...</button>
+                </div>
+            </form>
+    
+        </div>
+    
+        <div class="descricao">
+            
+        </div>
+    </div>
+
+
+    <script src="./assets/js/criptografia.js"></script>
 </body>
 </html>
