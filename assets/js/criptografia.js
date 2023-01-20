@@ -54,7 +54,7 @@ $('#botao').on('click', () => {
         }
     } else if ($('#codificar').is(' :checked')) {
         if (texto == '') {
-            alert('Informe algo para codificar')')
+            alert('Informe algo para codificar')
         } else {
             const arrayTexto = texto.split('')
             const valor = parseInt(numDesloc)
