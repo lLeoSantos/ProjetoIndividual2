@@ -164,5 +164,10 @@ label{
 @media (max-width: 760px) {
     .all {
         flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .descricao{
+        width: 350px;
+        margin-left: 0px;
     }
 }
