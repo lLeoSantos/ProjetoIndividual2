@@ -1,6 +1,6 @@
 
 $('#escolheCifra').change(function (event) {
-    var cifra = event.currentTarget.value;
+    let cifra = event.currentTarget.value;
     escolheCifra(cifra)
     return cifra
 });
@@ -35,7 +35,7 @@ function escolheCifra(verificador) {
 }
 
 $('#botao').on('click', () => {
-    var numDesloc = $('#deslocamento').val()
+    let numDesloc = $('#deslocamento').val()
     const texto = $('#entrada').val()
     $('#result').empty();
     if (numDesloc == '') {
@@ -98,7 +98,7 @@ function mostrarBase() {
 
 function cesarCodifica(msg, incremento) {
     return msg.map((texto) => {
-        var codifique = texto.charCodeAt()
+        let codifique = texto.charCodeAt()
         if (codifique >= 65 && codifique <= 90) {
             return String.fromCharCode(((codifique - 65 + incremento) % 26) + 65);
         } else if (codifique >= 97 && codifique <= 122) {
@@ -111,7 +111,7 @@ function cesarCodifica(msg, incremento) {
 
 function cesarDecodifica(msg, incremento) {
     return msg.map((texto) => {
-        var codifique = texto.charCodeAt()
+        let codifique = texto.charCodeAt()
         if (codifique >= 65 && codifique <= 90) {
             return String.fromCharCode(((codifique - 90 - incremento) % 26) + 90);
         } else if (codifique >= 97 && codifique <= 122) {
