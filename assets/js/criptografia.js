@@ -1,5 +1,5 @@
 
-$('#escolheCifra').change(function (event) {
+$('#escolheCifra').change(function defineCifra (event) {
     let cifra = event.currentTarget.value;
     escolheCifra(cifra)
     return cifra
@@ -16,7 +16,7 @@ $('#decodificar').on('click', () => {
 
 
 function escolheCifra(verificador) {
-
+    
     if (verificador == 'cifraDeCesar') {
         $('#selectDesloc').css({
             'display': 'flex'
@@ -27,7 +27,7 @@ function escolheCifra(verificador) {
         $('#selectDesloc').css({
             'display': 'none'
         })
-        $('#deslocamento').val('')
+        $('#deslocamento').val('1')
         $('#botao').css({'display': 'block'})
         mostrarBase()
     }
@@ -35,10 +35,12 @@ function escolheCifra(verificador) {
 }
 
 $('#botao').on('click', () => {
-    let numDesloc = $('#deslocamento').val()
+    numDesloc = $('#deslocamento').val()
     const texto = $('#entrada').val()
     $('#result').empty();
-    if (numDesloc == '') {
+    if (numDesloc < 1) {
+        alert('O valor do deslocamento não pode ser menor que 1')
+    } else if ( $('#escolheCifra').val() == 'base64') {
         if ($('#codificar').is(':checked')) {
             if (texto == '') {
                 alert('Informe algo para codificar')

@@ -42,7 +42,9 @@ body{
     margin-right: 15px;
     border-radius: 300px;
 }
-
+.icons:hover{
+    transform: scale(0.9);
+}
 h1{
     margin-top: 30px;
 }
