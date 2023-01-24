@@ -14,7 +14,7 @@
 <p>Digite o que deseja criptografar / Selecione a griptografia que deseja usar /Escolha se deseja codificar ou decodificar / Para a cifra de cesar séra necessário escolher um valor para deslocar as letras / Depois é só apertar o botão para que o programa seja executado!</p>
 <h3 style="text-align: center;">Linguagens utilizadas</h3>
 
-<div style="display: inline;">
+<div style="display: flex;">
     <div style="display: inline-block;">
         <div>HTML</div>
         <img src="./assets/img/icons8-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-96.png" style="width: 96px;">
