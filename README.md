@@ -1,14 +1,17 @@
 <h1 style="text-align: center;">Projeto Individual - Módulo 2 </h1>
 <h2 style="text-align: center;">Code  & Decode</h2>
 <br>
-<img src="./assets/img/projetoindividual2" style="width: 96px;">
+<img src="./assets/img/projetoindividual2.png" style="width: 96px;">
 <div style="text-align: center; font-weight: bolder;">Feito por - Leonardo Santos </div>
 <br>
 <br>
 <h3 style="text-align: center;">Sobre o projeto</h3>
 
-<p> <span style="margin-left: 30px;">Criar um programa capaz de codificar e decodificar palavras/textos em base64 e Cifra de Cesar.
+<p> <span style="margin-left: 30px;">Criar um programa capaz de codificar e decodificar palavras/textos em base64 e Cifra de Cesar.</p>
 <br> 
+<h3 style="text-align: center;">Como usar</h3>
+
+<p>Digite o que deseja criptografar / Selecione a griptografia que deseja usar /Escolha se deseja codificar ou decodificar / Para a cifra de cesar séra necessário escolher um valor para deslocar as letras / Depois é só apertar o botão para que o programa seja executado!</p>
 <h3 style="text-align: center;">Linguagens utilizadas</h3>
 
 <div style="display: inline;">
