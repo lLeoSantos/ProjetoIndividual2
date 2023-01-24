@@ -1,7 +1,7 @@
 <h1 style="text-align: center;">Projeto Individual - Módulo 2 </h1>
 <h2 style="text-align: center;">Code  & Decode</h2>
 <br>
-<img src="./assets/img/projetoindividual2.png" style="width: 96px;">
+<img src="./assets/img/projetoindividual2.png">
 <div style="text-align: center; font-weight: bolder;">Feito por - Leonardo Santos </div>
 <br>
 <br>
