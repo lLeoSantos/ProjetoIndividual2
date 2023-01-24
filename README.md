@@ -11,7 +11,11 @@
 <br> 
 <h3 style="text-align: center;">Como usar</h3>
 
-<p>Digite o que deseja criptografar / Selecione a griptografia que deseja usar /Escolha se deseja codificar ou decodificar / Para a cifra de cesar séra necessário escolher um valor para deslocar as letras / Depois é só apertar o botão para que o programa seja executado!</p>
+<p>1 - Digite o que deseja criptografar<br> 
+2 - Selecione a griptografia que deseja usar<br>
+3 - Escolha se deseja codificar ou decodificar<br>
+4 - Para a cifra de cesar séra necessário escolher um valor para deslocar as letras<br>
+5 - Depois é só apertar o botão para que o programa seja executado!</p><br>
 <h3 style="text-align: center;">Linguagens utilizadas</h3>
 
 <div style="display: flex;">
